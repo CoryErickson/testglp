@@ -27,7 +27,7 @@ if (mysqli_num_rows($res) > 0)
 	}
 }
 
-log_error("test to error log\n";
+error_log("test to error log\n";
 
 mysqli_close($db);
 
