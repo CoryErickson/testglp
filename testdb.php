@@ -1,6 +1,8 @@
+
+hello there 1
 <?php
 
-print "hello ther\n";
+print "hello there 2\n";
 
 $server = 10.1.0.4;
 $username = "appl";
