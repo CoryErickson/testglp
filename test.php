@@ -1,5 +1,6 @@
+outside
 <?php
 
-error_log("blah\n";
+error_log("inside\n";
 
 ?>
