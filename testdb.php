@@ -1,5 +1,7 @@
 <?php
 
+print "hello ther\n";
+
 $server = 10.1.0.4;
 $username = "appl";
 $password = "appl";
