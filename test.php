@@ -1,5 +1,5 @@
 <?php
 
-log_error("blah\n";
+error_log("blah\n";
 
 ?>
