@@ -4,7 +4,7 @@ hello there 1
 
 print "hello there 2\n";
 
-$server = 10.1.0.4;
+$server = "10.1.0.4";
 $username = "appl";
 $password = "appl";
 
