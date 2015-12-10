@@ -15,13 +15,13 @@ if (!$db)
 	die("Couldn't connect to MySQL\n");
 }
 
-mysqli_select_db("appl", $db);
+mysqli_select_db($db, "appl");
 
-$res = mysqli_query("select * from x", $db);
+$res = mysqli_query($db, "select * from x");
 
 if (mysqli_num_rows($res) > 0)
 {
-	while ($row = mysqli_fetch_assoc($res))
+	while ($row = mysqli_fetch_assoc($db, $res))
 	{
 		print "value = $row[x]\n";
 	}
