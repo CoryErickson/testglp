@@ -16,7 +16,7 @@ mysqli_select_db($db, "appl");
 
 $res = mysqli_query($db, "select * from x");
 
-print "DB returns<br>\n";
+print "DB returned:<br><br>\n";
 if (mysqli_num_rows($res) > 0)
 {
 	while ($row = mysqli_fetch_assoc($res))
