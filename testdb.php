@@ -23,7 +23,7 @@ if (mysqli_num_rows($res) > 0)
 {
 	while ($row = mysqli_fetch_assoc($res))
 	{
-		print "value = $row["x"]\n";
+		print "value = $row['x']\n";
 	}
 }
 
