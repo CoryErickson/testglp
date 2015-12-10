@@ -21,7 +21,7 @@ $res = mysqli_query($db, "select * from x");
 
 if (mysqli_num_rows($res) > 0)
 {
-	while ($row = mysqli_fetch_assoc($db, $res))
+	while ($row = mysqli_fetch_assoc($res))
 	{
 		print "value = $row[x]\n";
 	}
